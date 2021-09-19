@@ -15,7 +15,7 @@ public class MakeChange {
 public static void main(String[] args) {
 	Scanner userInput = new Scanner(System.in);
 
-	//Parameters
+	//Parameters Complete
 
 	System.out.println("Please enter the amount of the bill in Dollars and Cents:   ");
 	double userInputTotal = Double.parseDouble(userInput.nextLine());
