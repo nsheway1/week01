@@ -15,20 +15,20 @@ public class MakeChange {
 public static void main(String[] args) {
 	Scanner userInput = new Scanner(System.in);
 
-	//Prametmeters
+	//Parameters
 
 	System.out.println("Please enter the amount of the bill in Dollars and Cents:   ");
 	double userInputTotal = Double.parseDouble(userInput.nextLine());
-	//double totalBill = userInputTotal;
+
 
 	System.out.println("Please enter the amount tendered in Dollars and Cents:   ");
 	double userInputTendered = Double.parseDouble(userInput.nextLine());
-	//double totalTendered = userInputTendered;
 
-//	math in background
+
+//	Math in background
 	double totalChange = (-userInputTotal+userInputTendered);
 
-// return
+// Return
 	System.out.println("Your Change is $"+totalChange);
 
 	}
